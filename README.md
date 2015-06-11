@@ -21,8 +21,10 @@ An example `.pre-commit-config.yaml`:
     sha: HEAD
     hooks:
       -   id: gofmt
-			-   id: gobuild
+      -   id: gobuild
 ```
+
+[pre-commit]: http://pre-commit.com/
 
 ## License
 
