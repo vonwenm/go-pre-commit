@@ -1,0 +1,18 @@
+-   id: gofmt
+    name: Go Format
+    description: Formats Go code
+    entry: go fmt
+    language: system
+    files: \.go$
+-   id: gofix
+    name: Go Fix
+    description: Updates old Go APIs to the latest version.
+    entry: go fix
+    language: system
+    files: \.go$
+-   id: govet
+    name: Go Vet
+    description: Vets Go code for mistakes not caught by the compiler.
+    entry: go vet
+    language: system
+    files: \.go$
