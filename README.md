@@ -10,9 +10,7 @@ The hooks available are:
   - `govet`
   - `gobuild`
 
-They do exactly what they sound like they do. The `go fmt` hook probably won't
-return a proper error, so your commit won't be halted and you'll need to
-immediately `git add . && git commit --amend` it.
+They do exactly what they sound like they do.
 
 An example `.pre-commit-config.yaml`:
 

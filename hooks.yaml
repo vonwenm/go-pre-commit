@@ -1,8 +1,8 @@
 -   id: gofmt
     name: Go Format
     description: Formats Go code
-    entry: go fmt
-    language: system
+    entry: gofmthook.sh
+    language: script
     files: \.go$
 -   id: gofix
     name: Go Fix
