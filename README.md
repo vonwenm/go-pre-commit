@@ -6,9 +6,9 @@ tools against simple Go repos.
 The hooks available are:
 
   - `gofmt`
-	- `gofix`
-	- `govet`
-	- `gobuild`
+  - `gofix`
+  - `govet`
+  - `gobuild`
 
 They do exactly what they sound like they do. The `go fmt` hook probably won't
 return a proper error, so your commit won't be halted and you'll need to
