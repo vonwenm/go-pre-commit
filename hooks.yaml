@@ -16,3 +16,9 @@
     entry: go vet
     language: system
     files: \.go$
+-   id: gobuild
+    name: Go Build
+    description: Makes sure Go code can build.
+    entry: go build
+    language: system
+    files: \.go$
